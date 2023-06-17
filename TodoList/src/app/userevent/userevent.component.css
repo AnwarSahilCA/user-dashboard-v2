@@ -1,0 +1,27 @@
+/* Structure */
+table {
+  width: 100%;
+  
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 60%;
+  
+}
+.mat-button-custom {
+  
+  color: rgb(58, 114, 236);
+}
+.mat-button-comment{
+  color: aqua;
+  background-color: green;
+  
+}
+.grayed-out {
+  color: gray; /* Gray color for the icon */
+}
+
+.active {
+  color: black; /* Active color for the icon */
+}

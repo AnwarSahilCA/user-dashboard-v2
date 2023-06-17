@@ -1,0 +1,21 @@
+<mat-toolbar class="navbar" color="primary">
+    <div class="navbar-container">
+      <button mat-button routerLink="/" routerLinkActive="active">Home</button>
+      <button mat-button routerLink="/about" routerLinkActive="active">About</button>
+      <button mat-button routerLink="/contact" routerLinkActive="active">Contact</button>
+    </div>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>person</mat-icon>
+      </button>
+      
+      
+      
+  </mat-toolbar>
+  <mat-menu  #menu="matMenu" >
+    <button mat-menu-item >Option 1</button>
+    <button mat-menu-item>Option 2</button>
+    <button mat-menu-item>Option 3</button>
+  </mat-menu>
+ 
+  <!-- <router-outlet></router-outlet> -->
+  
